@@ -25,7 +25,7 @@ def solution() -> int:
         for b in range(400):
             for c in range(500):
                 if a < b < c:
-                    if (a ** 2) + (b ** 2) == (c ** 2):
+                    if (a**2) + (b**2) == (c**2):
                         if (a + b + c) == 1000:
                             return a * b * c
 
@@ -45,7 +45,7 @@ def solution_fast() -> int:
     for a in range(300):
         for b in range(400):
             c = 1000 - a - b
-            if a < b < c and (a ** 2) + (b ** 2) == (c ** 2):
+            if a < b < c and (a**2) + (b**2) == (c**2):
                 return a * b * c
 
 

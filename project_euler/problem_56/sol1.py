@@ -31,7 +31,7 @@ def solution(a: int = 100, b: int = 100) -> int:
     # BASE raised to the POWER
     return max(
         [
-            sum([int(x) for x in str(base ** power)])
+            sum([int(x) for x in str(base**power)])
             for base in range(a)
             for power in range(b)
         ]
