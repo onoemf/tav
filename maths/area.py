@@ -13,7 +13,7 @@ def surface_area_cube(side_length: float) -> float:
     >>> surface_area_cube(3)
     54
     """
-    return 6 * side_length ** 2
+    return 6 * side_length**2
 
 
 def surface_area_sphere(radius: float) -> float:
@@ -27,7 +27,7 @@ def surface_area_sphere(radius: float) -> float:
     >>> surface_area_sphere(1)
     12.566370614359172
     """
-    return 4 * pi * radius ** 2
+    return 4 * pi * radius**2
 
 
 def area_rectangle(length: float, width: float) -> float:
@@ -47,7 +47,7 @@ def area_square(side_length: float) -> float:
     >>> area_square(10)
     100
     """
-    return side_length ** 2
+    return side_length**2
 
 
 def area_triangle(base: float, height: float) -> float:
@@ -87,7 +87,7 @@ def area_circle(radius: float) -> float:
     >>> area_circle(20)
     1256.6370614359173
     """
-    return pi * radius ** 2
+    return pi * radius**2
 
 
 def main():
